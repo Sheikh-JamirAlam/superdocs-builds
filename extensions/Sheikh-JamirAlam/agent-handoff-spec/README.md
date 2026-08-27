@@ -98,6 +98,6 @@ validation_2_reason=action changed sections outside scope: notes
 
 ## How the Pieces Fit Together
 
-![Workflow Diagram](/assets/image.png)
+![Workflow Diagram](/extensions/Sheikh-JamirAlam/agent-handoff-spec/assets/image.png)
 
 Every handoff is a schema-validated envelope. Agents perform the assigned work, while the independent validator checks what actually changed rather than trusting an agent's self-report. Unknown envelope versions, unknown fields, malformed scope boundaries, stale documents, and out-of-scope changes are rejected explicitly.
